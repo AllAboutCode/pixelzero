@@ -22,5 +22,3 @@ while True:
         n.show()
     
     time.sleep(1)
-
-    
