@@ -8,7 +8,7 @@ classifiers = [
 ]
  
 setup(
-  name='pixelzero',
+  name='pixel-zero',
   version='0.0.1',
   description='A zero boilerplate neopixel control library for the Raspberry Pi ',
   long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.txt').read(),
