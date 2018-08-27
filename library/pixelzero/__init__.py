@@ -38,14 +38,7 @@ class NeoPixel:
     
      
     def __setitem__(self, index, val):
-        sone = str(val)
-        stwo = sone.replace("(", "")
-        sthree = stwo.replace(")", "")
-        data = sthree.split(", ")
-        r = int(data[0])
-        g = int(data[1])
-        b = int(data[2])
-
+        r, g, b = [int(i) for i in str(val).replace("(", "").replace(")", "").split(", ")]
         strip.setPixelColorRGB(index, r, g, b)
     
     def show(self):
