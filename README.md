@@ -14,7 +14,7 @@ In the terminal window you have just opened, type the command below to install t
 sudo pip3 install pixel-zero
 ```
 
-### Contributing:
+# Contributing:
 
 If you want to contribute, you should first clone this repository, `cd` to the library directory on your Raspberry Pi, and then  run:
 
