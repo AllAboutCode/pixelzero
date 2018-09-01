@@ -1,6 +1,18 @@
 ![alt text](pixelzerologo.png)
 # Welcome to the PixelZero repository!
-A zero boilerplate neopixel control library for the Raspberry Pi
+
+# About
+PixelZero is a zero boilerplate neopixel control library for the Raspberry Pi. We've ported the MicroPython neopixel library to the Raspberry Pi to make neopixels much easier to use in Python, you can get started with just a few lines of code. Here is an example using 8 neopixels on BCM pin 18 turning pixel 5 red:
+
+```python
+from pixelzero import *
+
+np = NeoPixel(18, 8)
+
+np[5] = (255, 0, 0)
+np.show()
+```
+
 
 # Installing
 
