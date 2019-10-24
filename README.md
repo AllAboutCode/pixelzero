@@ -33,5 +33,3 @@ If you want to contribute, you should first clone this repository, `cd` to the l
 ```bash
 sudo python3 setup.py install
 ```
-
-Don't forget to submit a pull request when contributing, this is the best way for your code to get merged!
